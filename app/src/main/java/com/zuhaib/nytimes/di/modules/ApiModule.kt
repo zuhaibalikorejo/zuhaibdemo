@@ -12,7 +12,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 @Module
 class ApiModule {
 
-    //private val BASE_URL = "https://raw.githubusercontent.com"
 
     private  val BASE_URL  = "http://api.nytimes.com"
     @Provides
